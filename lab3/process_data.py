@@ -25,7 +25,7 @@ def f1(arg):
 
 @print_result
 def f2(arg):
-    return list(filter(lambda x: 'программист' in x, arg))
+    return list(filter(lambda st: st.startswith('программист'), arg))
     #raise NotImplemented
 
 
